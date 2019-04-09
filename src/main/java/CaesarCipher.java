@@ -10,8 +10,8 @@ public class CaesarCipher{
                         char currentCharacter = encryptedMessage.charAt(i);
                         int index = alphabet.indexOf(currentCharacter);
                         if (index != -1) {
-                char newChar = upperCaseInput.charAt(index);
-                encryptedMessage.setCharAt(i, newChar);
+                char newCharacter = upperCaseInput.charAt(index);
+                encryptedMessage.setCharAt(i, newCharacter);
             }            index = alphabet2.indexOf(currentCharacter);
             if (index != -1) {
                 String lowercaseInput = upperCaseInput.toLowerCase();
